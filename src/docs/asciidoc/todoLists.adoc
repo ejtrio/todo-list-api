@@ -1,0 +1,42 @@
+= Todo List Repository
+
+==== GET
+====== Normal
+
+.request
+include::{snippets}/getTodoLists/http-request.adoc[]
+
+.response
+include::{snippets}/getTodoLists/response-fields.adoc[]
+
+.curl
+include::{snippets}/getTodoLists/curl-request.adoc[]
+
+====== Projection
+.request
+include::{snippets}/getTodoListsProjection/http-request.adoc[]
+
+.response
+include::{snippets}/getTodoListsProjection/response-fields.adoc[]
+
+.curl
+include::{snippets}/getTodoListsProjection/curl-request.adoc[]
+
+==== POST
+
+.request
+include::{snippets}/postTodoLists/http-request.adoc[]
+
+.response
+include::{snippets}/postTodoLists/request-fields.adoc[]
+
+.curl
+include::{snippets}/postTodoLists/curl-request.adoc[]
+
+==== DELETE
+
+.request
+include::{snippets}/deleteTodoLists/http-request.adoc[]
+
+.curl
+include::{snippets}/deleteTodoLists/curl-request.adoc[]

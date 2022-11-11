@@ -1,0 +1,42 @@
+= Users Repository
+
+==== GET
+
+.request
+include::{snippets}/getTodoListItems/http-request.adoc[]
+
+.response
+include::{snippets}/getTodoListItems/response-fields.adoc[]
+
+.curl
+include::{snippets}/getTodoListItems/curl-request.adoc[]
+
+==== POST
+
+.request
+include::{snippets}/postTodoListItems/http-request.adoc[]
+
+.response
+include::{snippets}/postTodoListItems/request-fields.adoc[]
+
+.curl
+include::{snippets}/postTodoListItems/curl-request.adoc[]
+
+==== PATCH
+
+.request
+include::{snippets}/patchTodoListItems/http-request.adoc[]
+
+.response
+include::{snippets}/patchTodoListItems/request-fields.adoc[]
+
+.curl
+include::{snippets}/patchTodoListItems/curl-request.adoc[]
+
+==== DELETE
+
+.request
+include::{snippets}/deleteTodoListItems/http-request.adoc[]
+
+.curl
+include::{snippets}/deleteTodoListItems/curl-request.adoc[]
